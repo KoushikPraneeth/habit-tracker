@@ -617,16 +617,46 @@ label {
 }
 
 .analytics-button {
-  background: var(--primary-color);
-  color: white;
+  background: none;
   border: none;
-  border-radius: 0.5rem;
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
   cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+  color: var(--text-color);
   margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .analytics-button:hover {
-  opacity: 0.9;
+  background-color: #f1f5f9;
+}
+
+.dark .analytics-button:hover {
+  background-color: #6b7280;
+}
+
+.complete-button,
+.delete-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.complete-button svg,
+.delete-button svg,
+.analytics-button svg {
+  color: var(--text-color);
+  transition: color 0.2s;
+}
+
+.complete-button:hover svg {
+  color: var(--completed-color);
+}
+
+.delete-button:hover svg {
+  color: #ef4444;
 }

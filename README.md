@@ -1,8 +1,69 @@
-# React + Vite
+# Habit Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern habit tracking application built with React and Vite.
 
-Currently, two official plugins are available:
+![Habit Tracker Screenshot](public/screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- 📅 Track daily habits with a visual calendar
+- 🎨 Customizable habit colors and icons
+- 📊 Detailed analytics and progress tracking
+- 🌙 Dark/Light mode support
+- 🗑️ Easy habit management (add/edit/delete)
+- 📱 Responsive design for all devices
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/habit-tracker.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd habit-tracker
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Usage
+
+1. Add new habits using the "+ Add Habit" button
+2. Click on calendar days to mark habits as completed
+3. View analytics by clicking the 📊 icon
+4. Toggle dark mode using the moon/sun icon
+5. Drag and drop habits to reorder them
+
+## Technology Stack
+
+- ⚛️ React
+- 🚀 Vite
+- 🎨 Lucide Icons
+- 📦 React Beautiful DND
+- 🎨 CSS Variables for theming
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Your Name - your.email@example.com
+
+Project Link: [https://github.com/yourusername/habit-tracker](https://github.com/yourusername/habit-tracker)

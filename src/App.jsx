@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Check, Trash2, BarChart2 } from "lucide-react";
 import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 import "./App.css";
 import HabitAnalytics from "./components/HabitAnalytics";
@@ -137,8 +138,11 @@ function App() {
     <div className="app">
       <div className="header">
         <h1>Habit Tracker</h1>
-        <button onClick={() => setShowAnalyticsModal(true)}>
-          Analytics
+        <button
+          onClick={() => setShowAnalyticsModal(true)}
+          className="analytics-button"
+        >
+          <BarChart2 size={20} />
         </button>
         <button onClick={toggleDarkMode} className="dark-mode-toggle">
           <svg
@@ -346,13 +350,13 @@ function App() {
                             onClick={() => toggleDay(habit.id, getCurrentDayIndex())}
                             className="complete-button"
                           >
-                            ✅
+                            <Check size={20} />
                           </button>
                           <button
                             onClick={() => deleteHabit(habit.id)}
                             className="delete-button"
                           >
-                            🗑️
+                            <Trash2 size={20} />
                           </button>
                         </div>
                       </div>
