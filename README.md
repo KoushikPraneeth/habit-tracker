@@ -1,6 +1,8 @@
 # Habit Tracker
 
 A modern habit tracking application built with React and Vite.
+![image](https://github.com/user-attachments/assets/970b5074-0b31-4279-a4f3-2f765fc78733)
+
 
 
 ## Features
